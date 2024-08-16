@@ -32,7 +32,7 @@ The ConMAn operators can be be used in the comparison of different test suites a
 
 # Downloading and Installing ConMAn
 
-The ConMAn Operators are free for download and are distributed under the MIT license. The first step to getting ConMAn setup is download the the TXL compiler/interpreter from [www.txl.ca]{http://www.txl.ca}. The next step is to download the mutation operator source files directly from this repository. 
+The ConMAn Operators are free for download and are distributed under the MIT license. The first step to getting ConMAn setup is download the the [TXL](https://www.txl.ca) compiler/interpreter. The next step is to download the mutation operator source files directly from this repository. 
 
 # Running ConMAn
 
