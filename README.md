@@ -2,17 +2,14 @@
 
 The ConMAn (Concurrency Mutation Analysis) operators were developed for mutating concurrent source code written in Java (J2SE 5.0). Each operator is implemented in [TXL](https://www.txl.ca) - a source transformation language. There are 24 ConMAn operators and each operator is based on real concurrency bug patterns:
 
-* MXT – Modify Method-X Time
-  where X is wait(), sleep(), join(), and await()
+* MXT – Modify Method-X Time (where X is wait(), sleep(), join(), and await())
 * MSP - Modify Synchronized Block Parameter
 * ESP - Exchange Synchronized Block Parameters
 * MSF - Modify Semaphore Fairness
 * MXC - Modify Permit Count in Semaphore and Modify Thread
 * MBR - Modify Barrier Runnable Parameter
-* RTXC – Remove Thread Method-X Call
-where X is wait(), join(), sleep(), yield(), notify(), notifyAll()
-* RCXC – Remove Concurrency Mechanism Method-X Call
-where X is any method in Locks, Semaphores, Latches, Barriers, etc.
+* RTXC – Remove Thread Method-X Call (where X is wait(), join(), sleep(), yield(), notify(), notifyAll())
+* RCXC – Remove Concurrency Mechanism Method-X Call (where X is any method in Locks, Semaphores, Latches, Barriers, etc.)
 * RNA - Replace NotifyAll() with Notify()
 * RJS - Replace Join() with Sleep()
 * ELPA - Exchange Lock/Permit Acquisition
@@ -24,8 +21,7 @@ where X is any method in Locks, Semaphores, Latches, Barriers, etc.
 * RSB - Remove Synchronized Block
 * RVK - Remove Volatile Keyword
 * RFU - Remove Finally Around Unlock
-* RXO - Replace One Concurrency Mechanism-X with Another
-where X is Locks, Semaphores, etc.
+* RXO - Replace One Concurrency Mechanism-X with Another (where X is Locks, Semaphores, etc.)
 * EELO - Exchange Explicit Lock Objects
 * SHCR - Shift Critical Region
 * SKCR - Shrink Critical Region
