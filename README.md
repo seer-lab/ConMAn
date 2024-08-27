@@ -1,4 +1,6 @@
-# What is ConMAn?
+# ConMAn: Concurrency Mutation Analysis
+
+## What is ConMAn?
 
 The ConMAn (Concurrency Mutation Analysis) operators were developed for mutating concurrent source code written in Java (J2SE 5.0). Each operator is implemented in [TXL](https://www.txl.ca) - a source transformation language. There are 24 ConMAn operators and each operator is based on real concurrency bug patterns:
 
@@ -30,11 +32,11 @@ The ConMAn (Concurrency Mutation Analysis) operators were developed for mutating
 
 The ConMAn operators can be be used in the comparison of different test suites and testing strategies for concurrent Java as well as different fault detection techniques for concurrency. Although ConMAn has been used previously as a comparative metric for different fault detection tools we believe that these operators can also serve a role similar to method and class level mutation operators as both comparative metrics and coverage criteria. Furthermore, the ConMAn operators should be viewed as a complement not a replacement for the existing operators used in tools like MuJava. For example, using the ConMAn operators can direct mutate concurrency mechanisms like synchronization while using the method level operators can mutate other parts of the source code that may indirectly affect concurrency mechanisms.
 
-# Downloading and Installing ConMAn
+## Downloading and Installing ConMAn
 
 The ConMAn Operators are free for download and are distributed under the MIT license. The first step to getting ConMAn setup is download the the [TXL](https://www.txl.ca) compiler/interpreter. The next step is to download the mutation operator source files directly from this repository. 
 
-# Running ConMAn
+## Running ConMAn
 
 Each ConMAn Operator can be run separately using the following command:
 
